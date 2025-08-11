@@ -6,7 +6,7 @@ O objetivo é criar uma página simples e responsiva no estilo Linktree, listand
 <div style="display:flex; gap:1rem;">
     <img src="./assets/print1.jpeg" alt="Captura" width="300"/>
 
-<img src="./assets/print1.jpeg" alt="Captura" width="300"/>
+<img src="./assets/print2.jpeg" alt="Captura" width="300"/>
 </div>
 
 ## Funcionalidades
