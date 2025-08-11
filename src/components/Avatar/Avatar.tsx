@@ -2,7 +2,11 @@ import { Image, View, Text } from "react-native";
 
 import { styles } from "./AvatarStyle";
 
-export default function Avatar() {
+interface AvatarProps {
+  content: string
+}
+
+export default function Avatar(props: AvatarProps) {
   return (
     <View>
       <Image
@@ -11,7 +15,7 @@ export default function Avatar() {
           uri: "https://upload.wikimedia.org/wikipedia/commons/5/59/Saint_Just.jpg",
         }}
       />
-      <Text style={styles.username}>Erne1917</Text>
+      <Text style={styles.title}>{props.content}</Text>
     </View>
   );
 }

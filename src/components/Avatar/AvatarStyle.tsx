@@ -13,10 +13,11 @@ export const styles = StyleSheet.create({
         borderWidth: 3,
         borderColor: "#7e7575ff"
     },
-    username: {
+    title: {
         fontWeight: "bold",
-        fontSize: 22,
+        fontSize: 24,
         textAlign: "center",
-        marginTop: 10
+        marginTop: 20,
+        marginBottom: 20
     }
 })

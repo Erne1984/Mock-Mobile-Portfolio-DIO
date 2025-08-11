@@ -7,6 +7,13 @@ export const styles = StyleSheet.create({
     backgroundColor: "#FEDB51",
     alignItems: "center",
     justifyContent: "flex-start",
-    paddingTop: 100,
+    paddingTop: 70,
   },
+  buttonWrapper: {
+    flex: 1,
+    justifyContent: "flex-end",  
+    width: "100%",
+    alignItems: "center", 
+    paddingBottom: 80  
+  }
 });

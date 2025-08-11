@@ -10,7 +10,7 @@ export function HomeScreen() {
 
   return (
     <View style={styles.container}>
-      <Avatar />
+      <Avatar content="Erne1917" />
 
       <View style={styles.navButtons}>
         <ButtonLink linkName="GITHUB" url="https://github.com/Erne1984" />

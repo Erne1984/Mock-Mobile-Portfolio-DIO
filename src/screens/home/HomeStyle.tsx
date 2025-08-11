@@ -9,7 +9,7 @@ export const styles = StyleSheet.create({
     backgroundColor: "#FEDB51",
     alignItems: "center",
     justifyContent: "flex-start",
-    paddingTop: 100
+    paddingTop: 70
   },
   navButtons: {
     width: "100%",
